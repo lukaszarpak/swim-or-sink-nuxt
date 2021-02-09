@@ -1,5 +1,8 @@
 <template>
   <div class="iframe-container">
+    <h2 class="mb-4">
+      Grafik zajęć
+    </h2>
     <iframe src="https://app.activenow.pl/external/calendar/3604?code=f6c06ac1cf4d1de85b1d661509a6bdf0" />
   </div>
 </template>
