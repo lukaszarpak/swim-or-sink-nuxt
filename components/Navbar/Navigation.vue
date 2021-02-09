@@ -3,11 +3,6 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
-          <nuxt-link to="/dokumenty">
-            Dokumenty
-          </nuxt-link>
-        </div>
-        <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
           <nuxt-link to="/zapisy">
             Zapisy
           </nuxt-link>
@@ -23,6 +18,11 @@
         <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
           <nuxt-link to="/#section0">
             O nas
+          </nuxt-link>
+        </div>
+        <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
+          <nuxt-link to="/dokumenty">
+            Dokumenty
           </nuxt-link>
         </div>
         <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
