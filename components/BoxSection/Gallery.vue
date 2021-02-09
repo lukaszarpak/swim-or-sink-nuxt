@@ -1,18 +1,18 @@
 <template>
   <div class="wrapper">
     <div class="wrap">
-      <Gallery class="gallery" :images="images" :index="index" @close="index = null"></Gallery>
+      <!-- <Gallery class="gallery" :images="images" :index="index" @close="index = null"></Gallery> -->
       <div class="exit" @click="exitSheet">
-        <i class="fas fa-times"></i>
+        <i class="fas fa-times" />
       </div>
-      <div class="d-flex flex-wrap justify-content-center container">
+      <div class="d-flex flex-wrap justify-content-center container max-height">
         <div
-          class="image"
           v-for="(image, imageIndex) in images"
           :key="imageIndex"
-          @click="index = imageIndex"
+          class="image"
           :style="{ backgroundImage: `url(${image})`}"
-        ></div>
+          @click="index = imageIndex"
+        />
       </div>
     </div>
   </div>
@@ -84,6 +84,10 @@ export default {
   margin: 5px 10px;
   width: 250px;
   height: 250px;
+}
+.max-height {
+  height: 80vh;
+  overflow-y: scroll;
 }
 .fade-enter {
   opacity: 0;

@@ -1,44 +1,56 @@
 <template>
   <div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div />
+    <div />
+    <div />
     <div class="wrap">
       <div class="container">
         <div class="row">
           <div class="col-10 col-md-6 box mx-auto">
             <div class="description">
               <p>Zobacz zdjęcia z zajęć</p>
-              <button @click="isActive0=true">Galeria</button>
+              <button @click="isActive0=true">
+                Galeria
+              </button>
             </div>
           </div>
           <div class="col-10 col-md-6 box mx-auto">
             <div class="container">
               <div class="row">
-                <div class="col-6 boxIn"></div>
+                <div class="col-6 boxIn" />
                 <div class="col-6 boxIn">
                   <div class="description">
                     <p>Grafik zajęć</p>
-                    <button @click="isActive1 = true">Grafik</button>
+                    <button @click="isActive1 = true">
+                      Grafik
+                    </button>
 
                     <transition name="fade" type="transition">
                       <Sheets v-if="isActive1" @sheetDel="update">
-                        <h2 slot="title">Grafik Zajęć</h2>
-                        <h3 slot="day1">Sobota</h3>
+                        <h2 slot="title">
+                          Grafik Zajęć
+                        </h2>
+                        <h3 slot="day1">
+                          Sobota
+                        </h3>
                         <div slot="description1">
                           <p>18:00 grupa podstawowa – mały basen</p>
                           <p>18:30 grupa podstawowa – duży basen</p>
                           <p>19:00 grupa średnio zaawansowana – duży basen</p>
                           <p>19:30 grupa zaawansowana – duży basen</p>
                         </div>
-                        <h3 slot="day2">Niedziela</h3>
+                        <h3 slot="day2">
+                          Niedziela
+                        </h3>
                         <div slot="description2">
                           <p>18:00 grupa podstawowa – mały basen</p>
                           <p>18:30 grupa podstawowa – duży basen</p>
                           <p>19:00 grupa średnio zaawansowana – duży basen</p>
                           <p>19:30 grupa zaawansowana – duży basen</p>
                         </div>
-                        <h3 slot="day3">Poniedziałek</h3>
+                        <h3 slot="day3">
+                          Poniedziałek
+                        </h3>
                         <div slot="description3">
                           <p>18:30 grupa podstawowa i średnio zaawansowana – duży basen</p>
                           <p>19:00 grupa średnio zaawansowana i zaawansowana – duży basen</p>
@@ -53,7 +65,7 @@
                     <a href="#section0" class="aButton">Poznaj nas</a>
                   </div>
                 </div>
-                <div class="col-6 boxIn"></div>
+                <div class="col-6 boxIn" />
               </div>
             </div>
           </div>
@@ -63,27 +75,45 @@
                 Zobacz ceny
                 klikając poniżej
               </p>
-              <button @click="isActive2 = true">Cennik</button>
+              <button @click="isActive2 = true">
+                Cennik
+              </button>
 
               <transition name="fade">
                 <Sheets v-if="isActive2" @sheetDel="update">
-                  <h2 slot="title">Cennik</h2>
-                  <h3 slot="day1">Zajęcia grupowe</h3>
+                  <h2 slot="title">
+                    Cennik
+                  </h2>
+                  <h3 slot="day1">
+                    Zajęcia grupowe
+                  </h3>
                   <div slot="description1">
-                    <p>(15 lekcji) – 600zł płatne w dwóch równych ratach</p>
-                    <p style="margin-top: 15px">*Cena zawiera wejście uczestnika na basen.</p>
+                    <p>ilość zajęć x 40zł</p>
+                    <p style="margin-top: 15px">
+                      *Cena zawiera wejście uczestnika na basen.
+                    </p>
                   </div>
-                  <h3 slot="day2">Lekcje indywidualne</h3>
+                  <h3 slot="day2">
+                    Lekcje indywidualne
+                  </h3>
                   <div slot="description2">
                     <p>1os. - 50zł</p>
                     <p>2os. - 80zł</p>
                     <p>3os. - 100zł</p>
-                    <p style="margin-top: 15px">*Wejście na basen płatne we własnym zakresie.</p>
+                    <p style="margin-top: 15px">
+                      *Wejście na basen płatne we własnym zakresie.
+                    </p>
                   </div>
-                  <h3 slot="day3"></h3>
+                  <h3 slot="day3" />
                   <div slot="description3">
-                    <p>Czas trwania lekcji – 30min</p>
-                    <p>Miejsce zajęć – Basen GOSiR w Piasecznie, ul. Sikorskiego 20.</p>
+                    <p class="mt-4">
+                      Czas trwania lekcji 30min (opcjonalnie 45min lub 60min)
+                    </p>
+                    <p class="mt-4 font-weight-bold">
+                      Miejsce zajęć:
+                    </p>
+                    <p>Basen GOSiR w Piasecznie, ul.Sikorskiego 20</p>
+                    <p>Basen LAVO. w Józefosławiu, ul.Geodetów 23E</p>
                   </div>
                 </Sheets>
               </transition>
@@ -108,6 +138,10 @@
 import Sheets from './Sheets.vue'
 import Gallery from './Gallery.vue'
 export default {
+  components: {
+    Sheets,
+    Gallery
+  },
   data: () => ({
     isActive0: false,
     isActive1: false,
@@ -119,10 +153,6 @@ export default {
       this.isActive1 = active
       this.isActive2 = active
     }
-  },
-  components: {
-    Sheets,
-    Gallery
   }
 }
 </script>

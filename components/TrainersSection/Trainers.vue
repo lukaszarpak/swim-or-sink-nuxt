@@ -1,7 +1,7 @@
 <template>
   <div class="wrap">
     <h2>Nasi Trenerzy</h2>
-    <div class="container mx-auto">
+    <div class="container mx-auto pb-5">
       <div class="row wrapper">
         <Trainer
           :trainer-photo="trainerPhoto1"

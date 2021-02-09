@@ -4,9 +4,9 @@
       <div class="container">
         <div class="row">
           <div class="col-10 mx-auto nav">
-            <a href="#home">
+            <nuxt-link to="/">
               <img src="../../assets/LogoMain.png" alt>
-            </a>
+            </nuxt-link>
           </div>
           <div class="col-1 ham">
             <div class="hamburger" @click="isActive = !isActive">

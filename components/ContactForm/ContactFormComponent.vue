@@ -1,20 +1,22 @@
 <template>
-  <div class='col-10 col-md-5 mx-auto'>
-    <form action='https://formspree.io/xzbejqgr' method='POST'>
-      <label style='margin-top: 20px'>
+  <div class="col-10 col-md-5 mx-auto">
+    <form action="https://formspree.io/xzbejqgr" method="POST">
+      <label style="margin-top: 20px">
         <span>Imię i nazwisko</span>
-        <input type='text' class='name' name='Imię i nazwisko' />
+        <input type="text" class="name" name="Imię i nazwisko">
       </label>
       <label>
         <span>E-mail</span>
-        <input type='email' class='email' name='Email' />
+        <input type="email" class="email" name="Email">
       </label>
       <label>
         <span>Telefon</span>
-        <input type='number' class='phone' name='Telefon' />
+        <input type="number" class="phone" name="Telefon">
       </label>
-      <div class='status'></div>
-      <button type='submit' @click='submitForm'>Wyślij</button>
+      <div class="status" />
+      <button type="submit" @click="submitForm">
+        Wyślij
+      </button>
     </form>
   </div>
 </template>

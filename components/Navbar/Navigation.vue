@@ -3,7 +3,14 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-2 mx-auto">
-          <a @click="isActive0 = true">Galeria</a>
+          <nuxt-link to="/docs">
+            Dokumenty
+          </nuxt-link>
+        </div>
+        <div class="col-12 col-md-2 mx-auto">
+          <nuxt-link to="/zapisy">
+            Zapisy
+          </nuxt-link>
         </div>
         <div class="col-12 col-md-2 mx-auto">
           <a @click="isActive1 = true">Grafik</a>

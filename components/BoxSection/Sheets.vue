@@ -2,16 +2,16 @@
   <div class="wrapper" @click="exitSheet">
     <div class="sheet">
       <div class="exit" @click="exitSheet">
-        <i class="fas fa-times"></i>
+        <i class="fas fa-times" />
       </div>
       <div class="content">
-        <slot name="title"></slot>
-        <slot name="day1"></slot>
-        <slot name="description1"></slot>
-        <slot name="day2"></slot>
-        <slot name="description2"></slot>
-        <slot name="day3"></slot>
-        <slot name="description3"></slot>
+        <slot name="title" />
+        <slot name="day1" />
+        <slot name="description1" />
+        <slot name="day2" />
+        <slot name="description2" />
+        <slot name="day3" />
+        <slot name="description3" />
       </div>
     </div>
   </div>

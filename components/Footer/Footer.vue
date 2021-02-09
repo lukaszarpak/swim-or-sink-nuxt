@@ -24,8 +24,8 @@
           <p>e-mail: szkolaplywaniasos@gmail.com</p>
         </div>
         <div class="col-10 col-sm-6 col-lg-3 mx-auto foot">
-          <!-- <p><a href="">Regulamin</a></p>
-          <p><a href="">Warunki</a></p>-->
+          <p><a href="" style="text-decoration: underline;">Regulamin</a></p>
+          <p><a href="" style="text-decoration: underline;">Warunki</a></p>
           <p>Design i wykonanie</p>
           <p>Łukasz Szarpak</p>
         </div>
