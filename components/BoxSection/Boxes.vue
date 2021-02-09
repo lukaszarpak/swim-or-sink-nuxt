@@ -21,9 +21,9 @@
                 <div class="col-6 boxIn">
                   <div class="description">
                     <p>Grafik zajęć</p>
-                    <button @click="isActive1 = true">
+                    <nuxt-link class="aButton" to="grafik">
                       Grafik
-                    </button>
+                    </nuxt-link>
 
                     <transition name="fade" type="transition">
                       <Sheets v-if="isActive1" @sheetDel="update">

@@ -2,29 +2,31 @@
   <div class="mobile">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-2 mx-auto">
-          <nuxt-link to="/docs">
+        <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
+          <nuxt-link to="/dokumenty">
             Dokumenty
           </nuxt-link>
         </div>
-        <div class="col-12 col-md-2 mx-auto">
+        <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
           <nuxt-link to="/zapisy">
             Zapisy
           </nuxt-link>
         </div>
-        <div class="col-12 col-md-2 mx-auto">
-          <a @click="isActive1 = true">Grafik</a>
+        <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
+          <nuxt-link to="/grafik">
+            Grafik
+          </nuxt-link>
         </div>
         <div class="col-12 col-md-2 mx-auto">
           <a @click="isActive2 = true">Cennik</a>
         </div>
-        <div
-          v-for="(item, index) in menu"
-          :key="index"
-          class="col-12 col-md-2 mx-auto"
-          @click="hideMenu"
-        >
-          <a :href="`#section${index}`">{{ item }}</a>
+        <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
+          <nuxt-link to="/#section0">
+            O nas
+          </nuxt-link>
+        </div>
+        <div class="col-12 col-md-2 mx-auto" @click="hideMenu">
+          <a href="#section1">Kontakt</a>
         </div>
       </div>
     </div>
@@ -111,8 +113,7 @@ export default {
   data: () => ({
     isActive0: false,
     isActive1: false,
-    isActive2: false,
-    menu: ['O nas', 'Kontakt']
+    isActive2: false
   }),
   methods: {
     hideMenu () {

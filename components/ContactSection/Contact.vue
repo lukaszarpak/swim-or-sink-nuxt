@@ -12,11 +12,11 @@
           </p>
           <p>Nasz e-mail:</p>
           <p style="font-weight: bold; margin-bottom: 40px">
-            szkolaplywaniasos@gmail.com
+            <a href="mailto:szkolaplywaniasos@gmail.com" style="color: white;">szkolaplywaniasos@gmail.com</a>
           </p>
           <p>Telefon:</p>
           <p style="font-weight: bold">
-            517-507-819
+            <a href="tel:+48517507819" style="color: white;">517-507-819</a>
           </p>
         </div>
 

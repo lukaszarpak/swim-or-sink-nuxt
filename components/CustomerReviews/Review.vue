@@ -62,7 +62,6 @@ export default {
       }
       i {
         color: gold;
-        margin-right: 10px;
       }
     }
   }

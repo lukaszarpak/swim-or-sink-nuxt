@@ -5,7 +5,6 @@
     <About id="section0" />
     <Trainers id="section2" />
     <Reviews />
-    <Contact id="section1" />
   </div>
 </template>
 
@@ -15,7 +14,6 @@ import Boxes from '../components/BoxSection/Boxes.vue'
 import About from '../components/AboutUs/About.vue'
 import Trainers from '../components/TrainersSection/Trainers.vue'
 import Reviews from '../components/CustomerReviews/Reviews.vue'
-import Contact from '../components/ContactSection/Contact.vue'
 
 export default {
   name: 'App',
@@ -24,12 +22,11 @@ export default {
     Boxes,
     About,
     Trainers,
-    Reviews,
-    Contact
+    Reviews
   },
   head: {
     title: 'Swim or Sink',
-    titleTemplate: 'Szkoła Pływania Piaseczno',
+    titleTemplate: 'Swim or Sink',
     htmlAttrs: {
       lang: 'pl',
       amp: true

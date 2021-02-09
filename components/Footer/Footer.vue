@@ -19,15 +19,15 @@
           </div>
         </div>
         <div class="col-10 col-sm-6 col-lg-3 mx-auto foot">
-          <p>tel. Kamil 517-507-819,</p>
-          <p>tel. Kuba 793-522-535</p>
-          <p>e-mail: szkolaplywaniasos@gmail.com</p>
+          <p><a href="tel:+48517507819" style="text-decoration: underline;">tel. Kamil 517-507-819</a></p>
+          <p><a href="tel:+48793522535" style="text-decoration: underline;">tel. Kuba 793-522-535</a></p>
+          <p><a href="mailto:szkolaplywaniasos@gmail.com" style="text-decoration: underline;">e-mail: szkolaplywaniasos@gmail.com</a></p>
         </div>
         <div class="col-10 col-sm-6 col-lg-3 mx-auto foot">
-          <p><a href="" style="text-decoration: underline;">Regulamin</a></p>
-          <p><a href="" style="text-decoration: underline;">Warunki</a></p>
+          <p><a href="/terms/RegulaminSwimOrSink.pdf" style="text-decoration: underline;" target="_blank">Regulamin</a></p>
+          <p><a href="/terms/RODOSwimOrSink.pdf" style="text-decoration: underline;" target="_blank">RODO</a></p>
           <p>Design i wykonanie</p>
-          <p>Łukasz Szarpak</p>
+          <p><a href="https://www.lukaszarpak.com/" target="_blank" style="text-decoration: underline;">lukaszarpak.com</a></p>
         </div>
       </div>
     </div>
