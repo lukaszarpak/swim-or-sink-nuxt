@@ -24,8 +24,8 @@
           <p><a href="mailto:szkolaplywaniasos@gmail.com" style="text-decoration: underline;">e-mail: szkolaplywaniasos@gmail.com</a></p>
         </div>
         <div class="col-10 col-sm-6 col-lg-3 mx-auto foot">
-          <p><a href="/terms/RegulaminSwimOrSink.pdf" style="text-decoration: underline;" target="_blank">Regulamin</a></p>
-          <p><a href="/terms/RODOSwimOrSink.pdf" style="text-decoration: underline;" target="_blank">RODO</a></p>
+          <p><a href="/terms/RODOSwimOrSink/RODOSwimOrSink.pdf" style="text-decoration: underline;" target="_blank">RODO</a></p>
+          <p><a href="/terms/RegulaminSwimOrSink/RegulaminSwimOrSink.pdf" style="text-decoration: underline;" target="_blank">Regulamin</a></p>
           <p>Design i wykonanie</p>
           <p><a href="https://www.lukaszarpak.com/" target="_blank" style="text-decoration: underline;">lukaszarpak.com</a></p>
         </div>
