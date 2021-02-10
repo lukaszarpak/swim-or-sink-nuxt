@@ -32,16 +32,6 @@ export default {
   color: black;
   background-color: #fff;
 
-  &:hover {
-    img {
-      box-shadow: 5px 5px 15px 8px rgba(80, 80, 80, 0.226);
-      width: 80%;
-    }
-    h3 {
-      margin-top: 30px;
-    }
-  }
-
   > img {
     width: 90%;
     margin: 35px auto 30px;

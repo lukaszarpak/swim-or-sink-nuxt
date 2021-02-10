@@ -6,12 +6,20 @@
     </h2>
     <div class="activenow-container">
       <div class="activenow-table-container">
-        <center><img src="https://www.activenow.io/assets/ripple.gif" width="100px"></center><script async src="https://app.activenow.pl/external/signup_table/load_by_js?code=f6c06ac1cf4d1de85b1d661509a6bdf0&school_id=3604" />
+        <center><img src="https://www.activenow.io/assets/ripple.gif" width="100px"></center>
       </div>
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  head: {
+    script: [
+      { src: 'https://app.activenow.pl/external/signup_table/load_by_js?code=f6c06ac1cf4d1de85b1d661509a6bdf0&school_id=3604', async: true }
+    ]
+  }
+}
+</script>
 <style scoped>
 .iframe-container {
   max-width: 1400px;
