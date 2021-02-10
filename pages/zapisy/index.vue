@@ -2,10 +2,12 @@
 <template>
   <div class="iframe-container">
     <h2 class="mb-4">
-      Wypełnij poniższy formularz, aby zapisać się na zajęcia
+      Wybierz godzinę i grupę aby zapisać się na zajęcia
     </h2>
-    <div class="activenow-form-container">
-      <center><img src="https://www.activenow.io/assets/ripple.gif" width="100px"></center><script async src="https://app.activenow.pl/external/signup_form/load_by_js?code=f6c06ac1cf4d1de85b1d661509a6bdf0&proficiency_id=&school_id=3604&signup_form_id=10547&venue_id=&zz=" />
+    <div class="activenow-container">
+      <div class="activenow-table-container">
+        <center><img src="https://www.activenow.io/assets/ripple.gif" width="100px"></center><script async src="https://app.activenow.pl/external/signup_table/load_by_js?code=f6c06ac1cf4d1de85b1d661509a6bdf0&school_id=3604" />
+      </div>
     </div>
   </div>
 </template>
@@ -16,7 +18,7 @@
   margin: 120px auto 50px;
   padding: 1rem;
 }
-.activenow-form-container {
+.activenow-container {
   border: 2px solid #0b70b8;
   border-radius: 30px;
   padding: 2rem 1rem;
