@@ -71,7 +71,7 @@
           Zajęcia grupowe
         </h3>
         <div slot="description1">
-          <p>(15 lekcji) – 600zł płatne w dwóch równych ratach</p>
+          <p>ilość zajęć x 40zł</p>
           <p style="margin-top: 15px">
             *Cena zawiera wejście uczestnika na basen.
           </p>
@@ -89,8 +89,14 @@
         </div>
         <h3 slot="day3" />
         <div slot="description3">
-          <p>Czas trwania lekcji – 30min</p>
-          <p>Miejsce zajęć – Basen GOSiR w Piasecznie, ul. Sikorskiego 20.</p>
+          <p class="mt-4">
+            Czas trwania lekcji 30min (opcjonalnie 45min lub 60min)
+          </p>
+          <p class="mt-4 font-weight-bold">
+            Miejsce zajęć:
+          </p>
+          <p>Basen GOSiR w Piasecznie, ul.Sikorskiego 20</p>
+          <p>Basen LAVO. w Józefosławiu, ul.Geodetów 23E</p>
         </div>
       </Sheets>
     </transition>
