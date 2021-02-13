@@ -47,15 +47,18 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 5;
   background-color: #fff;
   border-bottom: 2px solid #0b70b8;
+  z-index: 2;
 }
 .container {
   height: 100px;
   max-width: 1100px;
   margin: 0 auto;
-  z-index: 5;
+
+  @media(max-width: 500px) {
+    height: 80px;
+  }
 }
 .row {
   width: 100%;
@@ -68,6 +71,10 @@ export default {
     img {
       height: 100px;
       margin-top: -7px;
+
+      @media(max-width: 500px) {
+        height: 80px;
+      }
     }
   }
   .ham {

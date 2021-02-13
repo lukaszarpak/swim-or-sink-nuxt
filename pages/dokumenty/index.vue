@@ -4,7 +4,7 @@
       Dokumenty
     </h2>
     <h5 class="mb-4">
-      Klauzula informacyjna RODO
+      Klauzula informacyjna - RODO
     </h5>
     <p class="mb-2 text-right link">
       <a href="/terms/RODOSwimOrSink/RODOSwimOrSink.pdf" download="">Pobierz <i class="fas fa-download" /></a>

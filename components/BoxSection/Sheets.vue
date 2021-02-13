@@ -27,26 +27,36 @@ export default {
 </script>
 <style lang="scss" scoped>
 .wrapper {
-  position: fixed !important;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
-  z-index: 4;
   transition: 2s;
   color: #2d3681;
   .sheet {
-    position: relative;
-    top: 55%;
+    position: fixed;
+    top: 50%;
     left: 50%;
+    z-index: 10;
     transform: translate(-50%, -50%);
     background-color: #fff;
     max-width: 800px;
     width: 90%;
-    max-height: 700px;
+    max-height: 500px;
+    overflow-y: scroll;
     border-radius: 30px;
+
+    @media(max-width: 400px) {
+      top: 55%;
+      max-height: 450px;
+    }
+    @media(min-width: 700px) {
+      max-height: 700px;
+    }
+
     .exit {
       position: absolute;
       top: 30px;

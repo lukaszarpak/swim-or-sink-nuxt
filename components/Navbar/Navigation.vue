@@ -139,8 +139,12 @@ export default {
   top: 100px;
   left: 0;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
   transition: 0.3s;
+
+  @media(max-width: 500px) {
+    top: 80px;
+  }
   .container {
     margin: 0 auto;
     .row {
@@ -158,7 +162,7 @@ export default {
         a {
           color: #2d3681;
           display: block;
-          line-height: 90px;
+          line-height: 70px;
           cursor: pointer;
         }
         a:hover {

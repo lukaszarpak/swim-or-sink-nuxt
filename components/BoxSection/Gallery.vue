@@ -54,7 +54,7 @@ export default {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
-  z-index: 4;
+  // z-index: 4;
   transition: 2s;
   padding-top: 120px;
   .wrap {
@@ -64,7 +64,7 @@ export default {
       top: 30px;
       right: 30px;
       cursor: pointer;
-      z-index: 10;
+      // z-index: 10;
       i {
         font-size: 30px;
         color: #fff;
